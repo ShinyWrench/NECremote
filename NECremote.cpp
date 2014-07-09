@@ -49,7 +49,7 @@ ISR(TIMER1_COMPA_vect)
     }    
 
   	//check if buffer is full 
-	if (ISRvars.bufferPosition > 768) 
+	if (ISRvars.bufferPosition = 768) 
 	{
 		ISRvars.receiveState = 2;	
 	}
